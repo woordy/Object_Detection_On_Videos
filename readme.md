@@ -40,7 +40,8 @@ Yolov3 uses the weights of a pretrained DarkNet-53 network to extract images [2]
 
 The DarkNet-53 architecture is shown below:
 
-![png](imgs/darknet-53.png)
+
+<img src="imgs/darknet-53.png" alt="drawing" height="10"/>
  
 ### Why Yolov3
 As previously mentioned, Yolov3 provides for a very fast object detection model. Because of its performance and popularity, the Yolov3 libraries are integrated with the OpenCV libraries making model creation, training and testing slightly more manageable.
