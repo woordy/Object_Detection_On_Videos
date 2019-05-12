@@ -20,7 +20,7 @@ In chapter 2 of this project, we were able to detect objects on project. We disc
 
 ### Future Work:
 <ul>
-  <li>Train the Yolov3 network with new classes<li>
+  <li>Train the Yolov3 network with new classes</li>
   <li>Study the performance of YOLOv3 on real time live data</li>
   <li>Video activity tracking</li>
   <li>Video captioning using RNN and NLP </li>
