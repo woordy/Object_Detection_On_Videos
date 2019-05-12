@@ -40,8 +40,7 @@ Yolov3 uses the weights of a pretrained DarkNet-53 network to extract images [2]
 
 The DarkNet-53 architecture is shown below:
 
-
-<img src="imgs/darknet-53.png" alt="drawing" height="10"/>
+ ![png](imgs/darknet-53.png)
  
 ### Why Yolov3
 As previously mentioned, Yolov3 provides for a very fast object detection model. Because of its performance and popularity, the Yolov3 libraries are integrated with the OpenCV libraries making model creation, training and testing slightly more manageable.
@@ -76,7 +75,8 @@ In this project, we propose that given that we call detect objects in a video, c
 2.	Resolving the lack of annotation videos mentioned above and developing an AI automated process of annotating videos. 
 For (2) above, the detection process produces the class and we well the values tx, ty, Cx, cy. We also have the sampling rate.
 
- ![png](imgs/bound_box.png =100x20)
+
+ <img src="imgs/bound_box.png" alt="drawing" height="10"/>
 
 
 So we have enough information to create an annotation file that can be used to train other models. The challenge here remains that we do not have ground truth information. To resolve this, we can run several passes of the video into this model, or other variation of the model, log the data and then use unsupervised machine learning techniques to determine the appropriate acceptable boundaries and parameters. We did not get time to work on this, so will leave this to another project.
