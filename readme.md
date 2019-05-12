@@ -10,7 +10,7 @@
 2. [Why Yolov3](#why-yolov3)
 3. [Implementing Yolov3](#implementing-yolov3)
 4. [Results](#results)
-5. [Use Case: AI Based Video Annotation And Retrieva](#use-case)
+5. [Use Case AI Based Video Annotation And Retrieval](#use-case-ai-based-video-annotation-and-retrieval)
 6. [Use Case Results](#use-case-results)
 7. [Future Work](#future-work)
 8. [REFERENCES](#references)
@@ -65,7 +65,7 @@ Unfortunately, we could not find a small test video dataset. Most annotated vide
 
 However, using subjective human evaluation, we can conclude that the model performed well. Sample output are in included in the jupyter notebook.  
 
-### Use Case: AI Based Video Annotation And Retrieval
+### Use Case AI Based Video Annotation And Retrieval
 
 We now turn our attention to one possible Use Case of Object Detection on Video inputs. Up until recently, searches of videos relied on the name of the video or if the video was on a website, the general text around the website, to retrieve the video.
 
