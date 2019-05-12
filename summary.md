@@ -26,7 +26,7 @@ In chapter 2 of this project, we were able to detect objects on project. We disc
 •	Video captioning using RNN and NLP 
 
 ### References
-[1] Joseph Redmon., et al., “You Only Look Once: Unified, Real-Time Object Detection”, https://arxiv.org/pdf/1506.02640.pdf, 2015
-[2] Joseph Redmon, Ali Farhadi, “YOLOv3: An Incremental Improvement”, https://arxiv.org/abs/1804.02767 , 2018
-[3] Joseph Redmon, Darknet, https://pjreddie.com/darknet/
-[4] OpenCV: https://docs.opencv.org/4.1.0/
+[1] Joseph Redmon., et al., “You Only Look Once: Unified, Real-Time Object Detection”, https://arxiv.org/pdf/1506.02640.pdf, 2015 <br>
+[2] Joseph Redmon, Ali Farhadi, “YOLOv3: An Incremental Improvement”, https://arxiv.org/abs/1804.02767 , 2018 <br>
+[3] Joseph Redmon, Darknet, https://pjreddie.com/darknet/ <br>
+[4] OpenCV: https://docs.opencv.org/4.1.0/ <br>
