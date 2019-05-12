@@ -8,10 +8,10 @@
 2. [test_videos](#test_videos)
 3. [test_videos_detected](#test_videos_detected)
 4. [weights](#weights)
-5. [Use Case: AI Based Video Annotation And Retrieva](#use-case)
-6. [Use Case Results](#use-case-results)
-7. [Future Work](#future-work)
-8. [REFERENCES](#references)
+5. [cfg](#cfg)
+6. [annotation_db](#annotation_db)
+7. [weights](#weights)
+8. [imgs](#imgs)
 
 <HR>
 
