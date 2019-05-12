@@ -39,6 +39,8 @@ YoloV3 is an improvement over the original Yolo implementation. At 320 × 320 YO
 Yolov3 uses the weights of a pretrained DarkNet-53 network to extract images [2].  Darknet is an open source neural network framework written in C and CUDA [3]. The DarkNet-53 architecture consists of a 53-layer convolutional network that is then trained on an Imagenet dataset.
 
 The DarkNet-53 architecture is shown below:
+
+![png](imgs/darknet-53.png)
  
 ### Why Yolov3
 As previously mentioned, Yolov3 provides for a very fast object detection model. Because of its performance and popularity, the Yolov3 libraries are integrated with the OpenCV libraries making model creation, training and testing slightly more manageable.
