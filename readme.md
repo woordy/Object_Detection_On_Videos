@@ -3,7 +3,7 @@
 
 <HR>
 
-### [**_Welcome_**](readme.md)&emsp;|&emsp;[Data Set](data-set.md)&emsp;|&emsp;[Introduction and EDA](eda.md)&emsp;|&emsp;[Model Building](model-building.md)&emsp;|&emsp;[Summary](summary.md)
+### [**_Welcome_**](readme.md)&emsp;|&emsp;[Data Set](data-set.md)&emsp;|&emsp;[Introduction and EDA](eda.md)&emsp;|&emsp;[Jupyter Notebook Code](model-building.md)&emsp;|&emsp;[Summary](summary.md)
 <HR>
 
 ### Content:
