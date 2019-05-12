@@ -83,12 +83,31 @@ So we have enough information to create an annotation file that can be used to t
 
 For (1) above, we implemented a retrieval process where given a search, the model will return all videos that contain the search criteria. For example, “show all videos that have a person and elephant in them”.
 
-
- 
-File Name	File Location	Classes Detected
-video_01.mp4	data/videos	[person, dog, horse]
-video_03.mp4	data/videos	[bagpack, bottle]
-video_05.mp4	data/videos	[car, truck, trafficlight]
+<table>
+    <thead>
+        <tr>          
+          <th>File Name</th>          
+          <th>File Location</th>
+          <th>Classes Detected</th>          
+    </tr>
+     </thead>
+    <tbody>
+        <tr>
+            <td>video_01.mp4</td>
+            <td>data/videos</td>
+            <td>[person, dog, horse]</td>
+         <tr>
+           <td>video_01.mp4</td>
+           <td>data/videos</td>
+           <td>[bagpack, bottle]</td>
+         <tr>
+         <tr>
+           <td>video_03.mp4</td>
+           <td>data/videos</td>
+           <td>[car, truck, trafficlight]</td>
+         <tr>
+    </tbody>
+</table>
 
 In the table above, we only show three variables, but the table can be expanded include metadata information from the video e.g. location video was shot, time/date of video was shot, length of video, Focal length, etc. 
 1.	We save all the videos on storage location e.g. directory with each video having a unique primary identifier
