@@ -94,7 +94,7 @@ The jupyter code is attached and includes line by line documentation.
 
 ### Use Case Results
 
-The system can to retrieve videos that meet search criteria
+The system can retrieve videos that meet search criteria
 
 
 
