@@ -3,9 +3,9 @@
 
 <HR>
 
-### [**_Welcome_**](readme.md)&emsp;|&emsp;[Data Set](data-set.md)&emsp;|&emsp;[Introduction and EDA](eda.md)&emsp;|&emsp;[Jupyter Notebook Code](YOLOv3.ipynb)&emsp;|&emsp;[Summary](summary.md)
+### [**_Welcome_**](readme.md)&emsp;|&emsp;[Data Set](data-set.md)&emsp;|&emsp;[Jupyter Notebook Code](YOLOv3.ipynb)&emsp;|&emsp;[Summary](summary.md)
 <HR>
-
+  
 ### Content:
 1. [Conclusion](#conclusion)
 2. [Future Work](#future-work)
