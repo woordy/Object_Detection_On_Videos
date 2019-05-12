@@ -83,6 +83,8 @@ So we have enough information to create an annotation file that can be used to t
 
 For (1) above, we implemented a retrieval process where given a search, the model will return all videos that contain the search criteria. For example, “show all videos that have a person and elephant in them”.
 
+
+ 
 File Name	File Location	Classes Detected
 video_01.mp4	data/videos	[person, dog, horse]
 video_03.mp4	data/videos	[bagpack, bottle]
