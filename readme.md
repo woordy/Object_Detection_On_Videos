@@ -9,7 +9,7 @@
 1. [Introduction](#introduction)
 2. [YOLOv3](#yOlOv3)
 3. [Why Yolov3](#why-yolov3)
-4. [OpenCV](#opecv)
+4. [OpenCV](#opencv)
 5. [Implementing Yolov3](#implementing-yolov3)
 6. [Results](#results)
 7. [Use Case AI Based Video Annotation And Retrieval](#use-case-ai-based-video-annotation-and-retrieval)
