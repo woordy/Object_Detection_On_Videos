@@ -77,7 +77,7 @@ We now turn our attention to one possible Use Case of Object Detection on Video 
 In this project, we propose that given that we call detect objects in a video, can we use that information to:
 <ol>
  <li>Retrieve videos that meet a search criterion by “looking” into videos </li>
- <li><Resolving the lack of annotation videos mentioned above and developing an AI automated process of annotating videos./li>
+ <li><Resolving the lack of annotation videos mentioned above and developing an AI automated process of annotating videos.</li>
 </ol>
 
 For (2) above, the detection process produces the class and we well the values tx, ty, Cx, cy. We also have the sampling rate.
