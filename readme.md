@@ -72,6 +72,8 @@ Unfortunately, we could not find a small test video dataset. Most annotated vide
 
 However, using subjective human evaluation, we can conclude that the model performed well. Sample output are in included in the jupyter notebook.  
 
+<iframe src="https://drive.google.com/file/d/1rgNOvJnupSws95sq2JUEpvKxlAuH6MeP/preview" width="640" height="480"></iframe>
+
 ### Use Case AI Based Video Annotation And Retrieval
 
 We now turn our attention to one possible Use Case of Object Detection on Video inputs. Up until recently, searches of videos relied on the name of the video or if the video was on a website, the general text around the website, to retrieve the video.
