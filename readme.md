@@ -48,7 +48,7 @@ The DarkNet-53 architecture is shown below:
 As previously mentioned, Yolov3 provides for a very fast object detection model. Because of its performance and popularity, the Yolov3 libraries are integrated with the OpenCV libraries making model creation, training and testing slightly more manageable.
 
 ### OpenCV
-OpenCV stands for Open Source Computer Vision Library. It is a popular computer vision library that helps accelerate implementation of computer vision applications. [4] For this project, the integration of Yolo and OpenCV allows for less problematic management of video frames, reading and writing frames etc. We used the latest version of OpenCV 4 for this project.
+OpenCV stands for Open Source Computer Vision Library. It is a popular computer vision library that helps accelerate implementation of computer vision applications. [4] For this project, the integration of Yolo and OpenCV allows for less problematic management of video frames, reading and writing frames etc. We used OpenCV 4.1.
 
 ### Implementing Yolov3
 
@@ -62,10 +62,10 @@ The code is attached and includes line by line documentation.
 
 ### Results
 
-The mean Average Precision or “mAP score” is the current industry standard for evaluating the performance of Object detection model. To measure the mean Average Precision, we need ground truth knowledge of the video. Specifically, we need to know whether the object was classified correctly and whether the location of the object was properly predicted. This is particularly challenging for videos due of the following reasons:
+The mean Average Precision or “mAP score” is the current industry standard for evaluating the performance of Object detection model. To measure the mean Average Precision, we need ground truth knowledge of the video. Specifically, we need to know whether the object was classified correctly and whether the location of the object was properly predicted. This is particularly challenging for videos due to the following reasons:
 <ul>
  <li>	Videos are sampled at a specific frames per second rate to obtain video frames. To that end, we would need to have ground truth knowledge of the video frame at each sampling point and compare this frame with the predictions from the same frame. So synchronization of the ground truth video and test video is very critical.</li>
- <li>Videos Annotated at Varying sampling rate: If each ground truth video in our test data is annotated at different rate, then we risk comparing unmatched frames. So will need to adjust our model to remain synchronized with the ground truth annotation for us to be able to able to measure mean Average Precision</li>
+ <li>Videos annotated at varying sampling rate: If each ground truth video in our test data is annotated at different rate, then we risk comparing unmatched frames. So will need to adjust our model to remain synchronized with the ground truth annotation to accurately measure mean Average Precision</li>
 </ul>
 
 Unfortunately, we could not find a small test video dataset. Most annotated video datasets contained huge amounts of videos than our limited resources for this project could handle. 
