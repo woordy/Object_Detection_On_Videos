@@ -9,10 +9,11 @@
 1. [Introduction](#introduction)
 2. [YOLOv3](#yOlOv3)
 3. [Why Yolov3](#why-yolov3)
-4. [Implementing Yolov3](#implementing-yolov3)
-5. [Results](#results)
-6. [Use Case AI Based Video Annotation And Retrieval](#use-case-ai-based-video-annotation-and-retrieval)
-7. [Use Case Results](#use-case-results)
+4. [OpenCV](#opecv)
+5. [Implementing Yolov3](#implementing-yolov3)
+6. [Results](#results)
+7. [Use Case AI Based Video Annotation And Retrieval](#use-case-ai-based-video-annotation-and-retrieval)
+8. [Use Case Results](#use-case-results)
 
 
 <HR>
@@ -45,7 +46,8 @@ The DarkNet-53 architecture is shown below:
  
 ### Why Yolov3
 As previously mentioned, Yolov3 provides for a very fast object detection model. Because of its performance and popularity, the Yolov3 libraries are integrated with the OpenCV libraries making model creation, training and testing slightly more manageable.
-OpenCV
+
+### OpenCV
 OpenCV stands for Open Source Computer Vision Library. It is a popular computer vision library that helps accelerate implementation of computer vision applications. [4] For this project, the integration of Yolo and OpenCV allows for less problematic management of video frames, reading and writing frames etc. We used the latest version of OpenCV 4 for this project.
 
 ### Implementing Yolov3
